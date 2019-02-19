@@ -1,0 +1,61 @@
+body {
+    vertical-align: top;
+    background-color: rgb(36, 90, 134);
+}
+header {
+    vertical-align: top;
+    color: white;
+    background-color: red;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    border-radius: 25px;
+    width: 1230px;
+
+     }
+
+nav {
+    vertical-align: top;
+    background-color: teal;
+    color: white;
+    display: inline-block;
+    vertical-align: top;
+    border-radius: 25px;
+    padding: 15px;
+    margin: 15px;
+}
+
+a{
+    color: aqua;
+    vertical-align: top;
+}
+
+div{
+    background-color: rgb(0, 8, 40);
+    vertical-align: top;
+    color: white;
+    display: inline-block;
+    width: 930px;
+    vertical-align: top;
+    border-radius: 25px;
+    padding: 10px;
+    margin-top: 15px;
+}
+
+footer {
+    background-color: gray;
+    color: white;
+    padding: 25px;
+    border-radius: 25px;
+    margin: 15px;
+    width: 1170px;
+}
+ 
+.facts {
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+span {
+    color: rgb(154, 160, 219);
+}
