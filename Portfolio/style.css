@@ -1,0 +1,218 @@
+/* * {
+    outline: 1px dotted; red:
+} */
+header{
+    background-color: silver;
+    max-width: 57%;
+    margin: 0px auto;
+}
+
+
+h1.name {
+    max-width: 57%;
+    display: inline-block;
+}
+
+h2.top{
+    display: inline-block;
+    width: 70%;
+    vertical-align: top;
+    text-align: right;
+}
+
+div.container{
+    background-color: lightgray;
+    max-width: 57%;
+    max-height: 57%;
+    background-image: radial-gradient(circle, rgb(155, 109, 155), rgb(43, 41, 41));
+    margin: 0px auto;
+}
+    h2.heading{
+    background-image: linear-gradient(white, gray, white);
+    }
+
+    div.about{
+        margin: 0px auto;
+    }
+
+    div.container div.about{
+        vertical-align: top;
+        min-height: 150px;
+        max-width: 500px;
+        display: inline-block;
+        background-color: grey;
+        
+    }
+img.me {
+    vertical-align: top;
+    max-width: 300px;
+    max-height: 300px;
+    margin: 15px;
+    border: 5px solid gray;
+    display: inline-block;
+}
+
+img.lamode{
+    max-width: 360px;
+    max-height: 150px;
+    margin: 5px auto;
+    margin-left: 4px;
+}
+
+img.familyContacts{
+    max-width: 360px;
+    max-height: 150px;
+    margin: 5px auto;
+    margin-left: 4px;
+}
+
+img.fiveEleven{
+    max-width: 360px;
+    max-height: 150px;
+    margin: 5px auto;
+    margin-left: 4px;
+}
+
+h2.heading{
+background-color: gray;
+color: white;
+padding: 10px;
+margin: 5px;
+}
+
+div.content{
+    margin: 0px auto;
+    vertical-align: top;
+    margin: 0px auto;
+
+}
+
+div.topic1{
+
+    background-image: linear-gradient(to right, white , rgb(142, 108, 155));
+    display: inline-block;
+    vertical-align: top;
+    min-height: 100%;
+    max-width: 280px;
+    margin-top: 25px;
+    margin-right: 15px;
+    margin-left: 15px;
+}
+
+div.topic2{
+    background-image: linear-gradient(to right, white , rgb(142, 108, 155));
+    display: inline-block;
+    vertical-align: top;
+    min-height: 100%;
+    max-width: 280px;
+    margin-top: 25px;
+    margin-right: 15px;
+}
+
+div.topic3{
+    background-image: linear-gradient(to right, white , rgb(142, 108, 155));
+    display: inline-block;
+    vertical-align: top;
+    min-height: 100%;
+    max-width: 280px;
+    margin-top: 25px;
+}
+
+h2.t1{
+    color:white;
+    background-image: linear-gradient(white, gray, white);
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 10px;
+}
+
+h2.t2{
+    color:white;
+    background-image: linear-gradient(white, gray, white);
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 10px;
+}
+
+h2.t3{
+    color:white;
+    background-image: linear-gradient(white, gray, white);
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 10px;
+}
+
+p.p1{
+    max-width: 280px;
+    min-height: 185px;
+    padding: 10px;
+
+}
+
+p.p2{
+    max-width: 280px;
+    padding: 10px;
+    min-height: 185px;
+}
+
+p.p3{
+    max-width: 280px;
+    padding: 10px;
+    min-height: 185px;
+}
+
+h3.h3t1{
+    color:white;
+    background-image: linear-gradient(white, gray, white);
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 10px;
+}
+
+h3.h3t2{
+    color:white;
+    background-image: linear-gradient(white, gray, white);
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 10px;
+}
+
+h3.h3t3{
+    color:white;
+    background-image: linear-gradient(white, gray, white);
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 10px;
+}
+
+img.icons{
+    max-width: 40px;
+    max-height: 40px;
+    margin: 5px;
+}
+
+h4.button{
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+img.social{
+    max-width: 20px;
+    max-width: 20px;
+    margin-right: 10px;
+}
+
+
+p.footer{
+    text-align: center;
+}
+
+h4.button{
+    border: 1px solid black;
+    height: 18px;
+    width: 85px;
+    margin: 0px auto;
+    background-color: darkolivegreen;
+    border-radius: 15%;
+}
