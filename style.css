@@ -1,0 +1,173 @@
+*{
+    /* outline: 1px dotted; white; */
+    
+}
+
+body{
+    background-image: linear-gradient(to bottom right, rgb(105, 105, 194), rgb(100, 100, 190))
+}
+
+div.topright{
+    position: absolute; top: 0; right: 0;
+    margin: 10px;
+}
+
+h5.size{
+    vertical-align: top;
+    text-align: right;
+    margin: 15px;
+    color: white;
+}
+
+a.text{
+    color: rgb(233, 186, 32);
+}
+
+textarea{
+    padding: 10px;
+    vertical-align: middle;
+    border-style: solid;
+    border-width: 25px;
+    border-color: gray;
+    border-radius: 25px;
+}
+
+p.button{
+    margin: 0px auto;
+    margin-bottom: 40px;
+    text-align: center;
+    border-style: solid;
+    border-width: 2px;
+    border-color: gray;
+    display: inline-block;
+    padding: 5px;
+    background-color: navy;
+    color: white; 
+}
+
+img.logo{
+    display: inline-block;
+}
+
+div.topbody{
+    max-width: 80%;
+    display: inline-block;
+    
+}
+
+div.navbar{
+    background-color: rgb(58, 58, 184);
+    border-radius: 15px;
+    text-align: center;
+    max-width: 80%;
+    margin-left: 100px;
+
+}
+
+ul.topnav li.topnav {
+    display: inline-block;
+    background-color: rgb(58, 58, 184);
+    padding: 5px;
+    margin: 10px 20px 10px 20px;
+}
+
+a.topnav{
+    color:white;
+    text-align: center;
+}
+
+ul.sidenav{
+    display: inline-block;
+    vertical-align: top;
+    max-width: 80%;
+    list-style-type: disc;
+}
+
+li.sidenav{
+text-align: center;
+max-width: 10%;
+color: goldenrod;
+}
+
+a.sidnav li.sidenav{
+    color: white;
+    size: 25px;
+    text-decoration: none;
+}
+
+p.content{
+    display: inline-block;
+    max-width: 75%;
+    vertical-align: top;
+    color: white;
+    text-align: center;
+    margin: 25px;
+}
+ul.zenquote{
+    display: inline-block;
+    text-align: center;
+    list-style-type: none;
+    margin-left: 25%;
+    
+}
+
+li.zenquote{
+    margin-top: -15px;  
+}
+
+p.zenquote{
+    color:goldenrod;
+    display: inline-block;
+    font-style: italic;
+}
+
+p.zen{
+    color:white;
+}
+
+div.botbody1{
+    display: inline-block;
+    text-align: center;
+    max-width: 45%;
+}
+div.botbody2{
+    display: inline-block;
+    text-align: center;
+    max-width: 45%;
+}
+
+h3.both3{
+    max-width: 80%;
+    margin: 0px auto;
+    border-top: solid 4px blue;
+
+}
+
+p.botp{
+   max-width: 80%;
+   margin: 0px auto;
+
+}
+
+ul.botul{
+    max-width: 40%;
+    margin: 0px auto;
+    color: lightblue;
+    margin: 0px auto;
+    
+}
+div.footer{
+    margin: 0px auto;
+    background-color: rgb(58, 58, 184);
+}
+
+footer{
+    margin: 0px auto;
+    
+}
+
+li.footlist{
+    display: inline-block;
+    margin: 0px auto;
+    text-align: center;
+}
