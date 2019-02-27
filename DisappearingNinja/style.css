@@ -1,0 +1,13 @@
+.spongebob{
+    min-width: 250px;
+    min-height: 250px;
+    padding:20px;
+}
+
+div{
+    max-width: 1200px;
+}
+
+.btn{
+    margin: 0px auto;
+}
