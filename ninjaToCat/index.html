@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" type="text/css" href="normalize.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script>
+        $(document).ready(function() {
+            $('img').click(function() {
+                $(this).attr('temp',$(this).attr('src'))
+                console.log('data-alt-src value is', $(this).attr('data-alt-src'));
+                $(this).attr('src',$(this).attr('data-alt-src'))
+                $(this).attr('data-alt-src',$(this).attr('temp'))
+            });
+                
+        })
+    </script>
+</head>
+<body>
+    <div id="div">    
+        <img src='img/cat0.png' data-alt-src='img/ninja0.png' temp =""/>
+        
+        <img src='img/ninja1.png' data-alt-src='img/cat1.png'temp =""/>
+
+        <img src='img/ninja2.png' data-alt-src='img/cat2.png'temp =""/>
+
+        <img src='img/cat3.png' data-alt-src='img/ninja3.png'temp =""/>
+
+        <img src='img/ninja4.png' data-alt-src='img/cat4.png'temp =""/>  
+    </div>
+</body>
+</html>
