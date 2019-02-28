@@ -1,0 +1,31 @@
+body{
+    background-color: lightskyblue;
+}
+h1#name{
+    color: blue;
+    text-decoration: underline;
+    text-align: center;
+}
+
+div.pokedex{
+    vertical-align: top;
+    width: 20%;
+    float: right;
+    border: 3px solid red;
+}
+
+p{
+color:green;
+text-align: center;
+}
+
+div.images{
+    max-width: 75%;
+    border: 3px solid red;
+}
+
+#heading{
+    color: white;
+    font: bold;
+}
+

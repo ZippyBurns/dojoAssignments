@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Gotta Catch'em All</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="https://code.jquery.com/jquery-2.1.3.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            console.log("jQuery works")
+            var myImage = ""
+            for (let i = 1; i < 151; i++) {
+                myImage += `<img id="${i}" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/${i}.png">`
+                console.log("image works")
+            }
+            $('.images').append(myImage)
+
+
+            $('img').click(function () {
+                var pokeId = $(this).attr('id')
+
+                $.get('https://pokeapi.co/api/v2/pokemon/' + pokeId, function (res) {
+                    console.log(res)
+                    $('#type').html(res.types[0].type.name)
+                    console.log(res.types[0].type.name)
+                    $('#name').html(res.name)
+                    console.log(res.name)
+                    $('#height').html(res.height)
+                    console.log(res.height)
+                    $('#weight').html(res.weight)
+                    
+                })
+            });
+        })
+    </script>
+</head>
+
+<body>
+    <div id="wrapper">
+        <h1 id="heading">Click to discover more about each Pokemon!</h1>
+        <div class='pokedex'>
+            <h1 id='name'>Pokemon Name</h1>
+            <p id='type'> Abilities</p>
+            <p id='height'> Height</p>
+            <p id='weight'>Weight</p>
+        </div>
+        <div class='images'>
+
+        </div>
+
+    </div>
+</body>
+
+</html>
